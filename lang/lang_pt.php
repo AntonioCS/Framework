@@ -1,0 +1,55 @@
+<?php 
+
+define('CONTROLLER_ERROR_NOCONTROLLER','O controlador especificado não existe');
+define('CONTROLLER_ERROR_NOACTION','Esta acção não existe');
+define('CONTROLLER_ERROR_NOINDEXACTION','Este controlador não tem index');
+define('CONTROLLER_ERROR_NOPARENT','Este controlador deve herdar do controlador base');
+define('CONTROLLER_ERROR_NOCLASS','Class chamada não existe');
+
+define('EXCEPTION_CAUGHT','Excepção encontrada: ');
+
+define('AUTOLOAD_ERROR','Class base pedida não foi encontrada: ');
+
+define('VIEW_ERROR_NOFILE','A \'view\' especificada não existe na directoria da \'view\'');
+define('VIEW_ERROR_NOVIEWSET','Não existe uma \'view\' definida');
+
+define('MODEL_ERROR_NOMODEL','O modelo pedido não foi encontrado');
+define('MODEL_ERROR_NOMODELCLASS','Class do modelo não foi encontrada');
+
+
+
+
+define('SCAFFOLDING_FORM_SUCCESS','Dados introduzidos com sucesso');
+define('SCAFFOLDING_FORM_EDIT_SUCCESS','Dados editados com sucesso');
+define('SCAFFOLDING_FORM_ERROR','Foram detectados erros');
+define('SCAFFOLDING_FORM_ERROR_FIELD_NOT_NULL','Este campo não pode ser nulo');
+define('SCAFFOLDING_FORM_ERROR_EMAIL','Os parametros recebidos não se passaram a validação de email');
+define('SCAFFOLDING_FORM_ERROR_PASSWORD','A password não pode ser nula');
+define('SCAFFOLDING_FORM_ERROR_PASSWORD_CONF','A password de confirmação não pode ser nula');
+define('SCAFFOLDING_FORM_ERROR_PASSWORD_NO_MATCH','A password e a password de confirmação tem que ser iguais');
+define('SCAFFOLDING_FORM_ERROR_NUMERIC','Este campo so podera levar numeros');
+define('SCAFFOLDING_FORM_ERROR_FILE','Tem que introduzir um ficheiro');
+
+define('SCAFFOLDING_DELMSG_SUCCESS','Item apagado com sucesso');
+define('SCAFFOLDING_DELMSG_FAILURE','Ocorreu um erro ao tentar apagar o item');
+
+define('SCAFFOLDING_ERROR_NOTABLE','Scaffold Erro: Não foi encontrada a tabela');
+
+define('ACTIVERECORDING_ERROR_NOPRIKEY','Não existe chave primaria');
+define('ACTIVERECORDING_ERROR_NOSELID','Não existe uma id escolhida');
+define('ACTIVERECORDING_ERROR_NODATAID','A id escolhida não retorna dados');
+define('ACTIVERECORDING_ERROR_NOSELDATA','Não existem dados selecionados');
+define('ACTIVERECORDING_ERROR_NOFIELD','Esse campo não existe');
+
+//Erros da base de dados
+define('DB_CONNERROR','Connecção a base de dados falhou: ');
+define('DB_NOCONNDEFINED','Não existe uma ligação a base de dados definida');
+define('DB_NOTABLE','A tabela não existe');
+//DataBase Management System Data 
+define('DBMSD_NO_CONNECTION_TYPE','O tipo de ligação não tem dados associados');
+define('DBMSD_CONNECTION_ERROR','Erro ao tentar connectar');
+define('DBMSD_CONNECTION_TYPE_NOT_SUPPORTED','O tipo de Sistema de Gestao de Bases de Dados não é suportado');
+
+define('CONFIG_INVALID_PROPERTY','Propriedade invalidade do ficheiro de configurações selecionado');
+
+define('LOG_DIR_NOT_WRITTABLE','Impossivel escrever para directoria dos Logs');
